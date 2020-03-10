@@ -36,7 +36,7 @@ app.post('/send', (req, res) => {
     <h3>Message</3>
     <p>${req.body.message}</p>
     `;
-    // AQUI QUE TÁ A MÁGICA DO E-MAIL
+    // AQUI QUE TÁ A MÁGICA DO
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
         host: 'mail.YOURDOMAIN.com',
